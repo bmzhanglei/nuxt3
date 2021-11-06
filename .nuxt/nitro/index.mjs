@@ -122,7 +122,7 @@ server.listen(socketPath, () => {
   parentPort.postMessage({ event: "listen", address: { socketPath } });
 });
 
-const STATIC_ASSETS_BASE = "/Users/apple/GitHub/nuxt3/dist" + "/" + "1636170436";
+const STATIC_ASSETS_BASE = "/Users/apple/GitHub/nuxt3/dist" + "/" + "1636183355";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/Users/apple/GitHub/nuxt3/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/Users/apple/GitHub/nuxt3/.nuxt/dist/server/server.mjs'));
